@@ -15,7 +15,7 @@ public class TestUserController {
 	public void setUp() {
 		IView view = Mockito.mock(View.class);
 		this.controller = new UserController(view);
-		Mockito.when(view.displayMessage(Matchers.anyString())).thenReturn("OK");
+		Mockito.when(view.displayMessage(Matchers.anyString())).thenReturn("OK!!!");
 	}
 
 }
